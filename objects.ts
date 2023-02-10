@@ -6,7 +6,7 @@ function printCoord(pt: {x: number; y: number;}) { // 구분자로 ,를 써도 �
 printCoord({x: 3, y: 7});
 
 function printName(obj: {first: string, last?: string}) {
-    // do something
+    console.log(`Hello ${obj.first} ${obj.last?.toUpperCase()}`);
 }
 
 // both are OK

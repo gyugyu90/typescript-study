@@ -4,7 +4,9 @@ function printCoord(pt) {
 }
 printCoord({ x: 3, y: 7 });
 function printName(obj) {
-    // do something
+    var _a, _b;
+    console.log("Hello ".concat(obj.first, " ").concat((_a = obj.last) === null || _a === void 0 ? void 0 : _a.toUpperCase()));
+    console.log((_b = obj.last) === null || _b === void 0 ? void 0 : _b.toUpperCase());
 }
 // both are OK
 printName({ first: "Bob" });

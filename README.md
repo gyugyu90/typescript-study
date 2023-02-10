@@ -1,5 +1,5 @@
 #### 코드 실행
-tsc my-new-typescript.ts or just `tsc`
+tsc my-new-typescript.ts or just `tsc`  
 node my-new-typescript.js or node my-new-typescript  
 
 

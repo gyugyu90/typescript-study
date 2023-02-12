@@ -1,5 +1,5 @@
 function printId(id) {
-    console.log("Your id is ".concat(id));
+    console.log(`Your id is ${id}`);
 }
 // OK
 printId(101);

@@ -4,7 +4,7 @@ type DescribableFunction = {
     (someArg: number): boolean; // `call signature` 이렇게 정의하면
 };
 
-function doSomething(fn: DescribableFunction) {
+function doSomething2(fn: DescribableFunction) {
     console.log(fn.description + " returned "
         + fn(6)); // 이렇게 쓸 수는 있는데, 괜히 헷갈림
 }

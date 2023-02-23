@@ -53,13 +53,13 @@ type Getters<Type> = {
     [Property in keyof Type as `get${Capitalize<string & Property>}`]: () => Type[Property]
 };
 
-interface Person {
+interface Person4 {
     name: string;
     age: number;
     location: string;
 }
 
-type LazyPerson = Getters<Person>;
+type LazyPerson = Getters<Person4>;
 
 // 'kind' 프로퍼티를 제거합니다
 type RemoveKindField<Type> = {

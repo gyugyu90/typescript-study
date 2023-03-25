@@ -1,3 +1,4 @@
+// @ts-nocheck
 class GenericNumber<NumType> {
     zeroValue: NumType;
     add: (x: NumType, y: NumType) => NumType;

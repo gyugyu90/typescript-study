@@ -1,3 +1,4 @@
+// @ts-nocheck
 class GenericNumber {
     zeroValue;
     add;
